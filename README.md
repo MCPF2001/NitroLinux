@@ -107,10 +107,14 @@ This project combines high-level UI with low-level kernel operations:
 
     Hardware Mapping: Uses setkeycodes f5 148 to remap the proprietary Acer key scan code to Launch1.
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 
-This software writes directly to your laptop's Embedded Controller (EC) registers. While it has been tested on Acer Nitro 5 (AN515-54 / AN515-55) models, use it at your own risk. The developer is not responsible for any hardware damage caused by improper usage.
+This software writes directly to your laptop's Embedded Controller (EC) registers.
 
+* **Supported Models:** Strictly tested on **Acer Nitro 5 (AN515-54 / AN515-55)**.
+* **Compatibility:** It will **likely NOT work** on other models (even other Acer Nitro versions). Using this on unsupported hardware may lead to unexpected behavior, system instability, or fans not responding.
+
+**Use it at your own risk.** The developer is not responsible for any hardware damage or data loss caused by improper usage or running this software on incompatible devices.
 👨‍💻 Credits
 
 Developed by Christian (mcpf2001.github.io).
