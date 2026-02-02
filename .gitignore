@@ -1,0 +1,14 @@
+# Ignora file di compilazione e oggetti
+*.o
+*.moc
+moc_*
+Makefile
+.qmake.stash
+
+# Ignora gli eseguibili compilati
+nitrolinux
+NitroLinuxSense
+
+# Ignora cartelle di backup o vecchie
+nsfc linux/
+nsfc_linux/
